@@ -1,0 +1,141 @@
+body {
+
+    background: #ffffff;
+}
+
+.container {
+    width: 1060px; 
+    height: 950px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-left: solid 1px #cccccc;
+    border-right: solid 1px #cccccc;
+    
+    
+}
+
+.logo {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+}
+
+/* главное меню*/
+.main-menu ul {
+
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.main-menu {
+    margin-left: 60px;
+    margin-right: 50px;
+    padding: 10px 15px;
+    list-style: none;
+    background: #666666;
+    border: 1px solid #e5e5e5;
+}
+
+.main-menu li {
+    display: inline;
+    margin-right: 60px;
+    margin: 50px;
+}
+
+.main-menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-menu a :hover {
+	background:#333333;
+ }
+
+/* Боковое меню */
+.left-menu ul {
+	padding: 10px 10px;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.left-menu {
+    width: 240px;
+    
+    list-style: none;
+    background: #ffffff;
+    float: left;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.left-menu li {
+	width: 240px;
+    height: 40px;
+    text-align: center;
+	margin: 0px;
+	border: 1px solid #e5e5e5;
+}
+
+.left-menu a {
+    color: #666666;
+    text-decoration: none;
+
+}
+
+/* рисунок*/
+.bike {
+	float: right;
+	width: 680px;
+	height: 400px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.text {
+	float: both;
+}
+
+/* подвал */
+
+
+.foter {
+	list-style: none;
+    background: #cccccc;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 14px;
+    margin-left: 60px;
+    margin-right: 50px;
+    padding: 10px 15px;
+    
+}
+.foter ul {
+    border: 1px solid #e5e5e5;
+
+}
+
+.foter li {
+	display: inline;
+    float: right;
+    bottom: 20px;
+    margin: 0;
+	padding: 0;
+
+}
+
+.foter a {
+    padding: 5px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+}
+
+.year {
+    text-decoration: none;
+    text-align: right;
+
+}
+
+
