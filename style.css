@@ -1,17 +1,9 @@
-body {
-
-    background: #ffffff;
-}
-
-.container {
+.wrapper {
     width: 1060px; 
-    height: 950px;
-    margin: 0 auto;
+    margin: auto;
     background: #ffffff;
-    border-left: solid 1px #cccccc;
-    border-right: solid 1px #cccccc;
-    
-    
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    font-size: 0; 
 }
 
 .logo {
@@ -21,121 +13,140 @@ body {
 }
 
 /* главное меню*/
-.main-menu ul {
 
-    font-family: "Myriad Pro", sans-serif;
+.top-menu ul {
+    padding: 0;
+    width: 966px;
+    margin: auto;
+      background-image: -webkit-linear-gradient(bottom, #444343, #5e5e5e);
+      background-image: -moz-linear-gradient(bottom, #444343, #5e5e5e);
+      background-image: -o-linear-gradient(bottom, #444343, #5e5e5e);
+      background-image: -ms-linear-gradient(bottom, #444343, #5e5e5e);
+      background-image: linear-gradient(to top, #444343, #5e5e5e);
+}
+
+.top-menu li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.top-menu a {
+    display: block;
+    border: 1px solid transparent;
+    padding: 15px;
     font-size: 15px;
-    line-height: 1.4;
-}
-
-.main-menu {
-    margin-left: 60px;
-    margin-right: 50px;
-    padding: 10px 15px;
-    list-style: none;
-    background: #666666;
-    border: 1px solid #e5e5e5;
-}
-
-.main-menu li {
-    display: inline;
-    margin-right: 60px;
-    margin: 50px;
-}
-
-.main-menu a {
+    font-family: "Myriad Pro", sans-serif;
     color: #ffffff;
     text-decoration: none;
 }
 
-.main-menu a :hover {
-	background:#333333;
+.top-menu a :first-child {
+      padding-left: 0;
+}
+
+.top-menu a:hover {
+    background-color: #333333;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
  }
 
 /* Боковое меню */
-.left-menu ul {
-	padding: 10px 10px;
+
+.content ul {
+    display: inline-block;
+    padding: 0;
+    background: #ffffff;
+    width: 240px;
+    margin: 45px;
+    vertical-align: top;
+}
+
+.content li {
+    text-align: center;
+    margin: 0px;
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+
+.content ul li:last-child {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content a {
+    display: block;
+    border: 1px solid transparent;
+    padding: 15px;
+    text-decoration: none;
+    list-style: none;
+    vertical-align: top;
+    color: #666666;
     font-family: "Myriad Pro", sans-serif;
     font-size: 14px;
-    line-height: 1.4;
 }
 
-.left-menu {
-    width: 240px;
-    
-    list-style: none;
-    background: #ffffff;
-    float: left;
-    margin-top: 40px;
-    margin-left: 60px;
-    margin-right: 50px;
-}
-.left-menu li {
-	width: 240px;
-    height: 40px;
-    text-align: center;
-	margin: 0px;
-	border: 1px solid #e5e5e5;
+.content a:hover {
+    color: #2c2c2c;
+    text-indent: 10px;
+    background-color: #cccccc;
+ }
+
+/* рисунок*/ 
+
+.content img {
+    display: inline-block;
+    width: 680px;
+    margin-top: 40px;  
 }
 
-.left-menu a {
-    color: #666666;
-    text-decoration: none;
-
-}
-
-/* рисунок*/
-.bike {
-	float: right;
-	width: 680px;
-	height: 400px;
-    margin-left: 50px;
-    margin-top: 40px;
-    margin-right: 50px;
-}
-
-.text {
-	float: both;
+p {
+    font-size: 14px;
+    width: 600px;
+    margin: 40px;
+    margin-left: 350px;
 }
 
 /* подвал */
 
+.footer {
+    margin: 40px;
+    height: 40px;
+    padding: 30px;
+}
 
-.foter {
-	list-style: none;
+.footer ul {
+    padding: 0;
+    width: 966px;
     background: #cccccc;
+}
+
+.footer li {
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: #333333;
     font-family: "Myriad Pro", sans-serif;
     font-size: 14px;
-    margin-left: 60px;
-    margin-right: 50px;
-    padding: 10px 15px;
-    
-}
-.foter ul {
-    border: 1px solid #e5e5e5;
-
-}
-
-.foter li {
-	display: inline;
-    float: right;
-    bottom: 20px;
-    margin: 0;
-	padding: 0;
-
-}
-
-.foter a {
-    padding: 5px 15px;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: left;
-}
-
-.year {
-    text-decoration: none;
-    text-align: right;
-
+     -moz-transition: all 0.3s 0.01s ease;
+     -o-transition: all 0.3s 0.01s ease;
+     -webkit-transition: all 0.3s 0.01s ease;
 }
 
 
+.footer li:last-child {
+      display:inline-block;
+      margin-left: 320px;
+      border: 1px solid transparent;
+      color: #2c2c2c;
+      font-family: "Myriad Pro", sans-serif;
+      font-size: 14px;
+      text-align: left;
+}
+
+.footer a:hover {
+      text-decoration: underline;
+}
